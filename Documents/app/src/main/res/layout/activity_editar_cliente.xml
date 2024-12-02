@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Título del formulario -->
+        <TextView
+            android:id="@+id/tv_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Formulario Editar Cliente"
+            android:backgroundTint="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+
+        <EditText
+            android:id="@+id/et_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:textColorHint="#9E9E9E"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/et_apellidoP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellido Paterno"
+            android:textColorHint="#9E9E9E"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/et_apellidoM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellido Materno"
+            android:textColorHint="#9E9E9E"
+            android:inputType="textPersonName" />
+
+
+        <TextView
+            android:id="@+id/tv_fechaN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha de Nacimiento"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#9E9E9E"
+            android:textSize="16sp"
+            android:paddingTop="8dp" />
+
+        <Button
+            android:id="@+id/btn_fechaN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF3D00"
+            android:text="Seleccionar Fecha" />
+
+
+        <EditText
+            android:id="@+id/et_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono"
+            android:textColorHint="#9E9E9E"
+            android:inputType="phone" />
+
+
+        <EditText
+            android:id="@+id/et_peso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Peso (kg)"
+            android:textColorHint="#9E9E9E"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/et_estatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estatura (cm)"
+            android:textColorHint="#9E9E9E"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/et_correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo"
+            android:textColorHint="#9E9E9E"
+            android:inputType="textEmailAddress"
+            android:enabled="false" />
+
+
+        <Button
+            android:id="@+id/btn_guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:backgroundTint="#FF6D00"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

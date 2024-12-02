@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1E1E1E">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gymfort"
+        android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:textStyle="bold" />
+
+    !
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="ID_Usuario"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9E9E9E"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp" />
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Contraseña"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9E9E9E"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp" />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Iniciar sesión"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF3D00"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Registrarse"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF6D00"
+        android:textStyle="bold" />
+
+</LinearLayout>
